@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-Like Layout with Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex min-h-screen items-center justify-center">
+    <div class="h-[80vh] bg-white rounded-lg shadow-md overflow-hidden">
+      <div class="w-full h-16 flex justify-between pt-2">
+        <img src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="width-16 mt-2 ml-2 object-cover" alt="">
+        <img src="https://ci5.googleusercontent.com/proxy/MO2mH4DfCy1aO83C5tAUmnz04QAhL1OzllCiKX0uYE8cvUF-tB-GzEyG9utvZf6OTCbpJyJc09xAlNQc0ftAjnjhEFOrIEtR5WA=s0-d-e1-ft#https://www.gstatic.com/accountalerts/email/keyhole.png" class="mr-2 mt-1 mb-1 object-cover" alt="">
+      </div>
+        <div class="bg-blue-500 text-white p-6 text-center mt-4">
+            <h2 class="text-xl font-semibold">New sign-in from Chrome OS</h2>
+        </div>
+        <div class="p-6">
+            <p class="text-gray-700 mb-4">Hi Shivansh Rawat,</p>
+            <p class="text-gray-700 mb-4">
+                Your Google Account <span class="text-blue-500">shivansh@mail.com</span> was just used to sign in on Chrome OS.
+            </p>
+            <div class="flex items-center mb-6">
+                <img class="w-12 h-12" src="https://www.gstatic.com/accountalerts/devices/chrome_device_wallpaper_big.png" alt="Chrome OS">
+                <div class="ml-4">
+                    <p class="text-lg font-medium">Chrome OS</p>
+                    <p class="text-sm text-gray-600">Yesterday 3:01 PM (Eastern Daylight Time)<br>Bangkok, Thailand*</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <strong>Don't recognize this activity?</strong><br>
+                <a href="/form" class="inline-block mt-4 px-4 py-2 bg-blue-500 text-white font-bold rounded shadow">
+                    Review your Activity
+                </a>
+            </div>
+        </div>
+        <div class="px-6 pt-10 pb-6 text-gray-600 text-sm border-t">
+            *The location is approximate and determined by the IP address it was coming from.
+        </div>
+        <div class="px-6 pb-6 text-gray-600 text-sm">
+            This email can't receive replies. To give us feedback on this alert, <a href="#" class="text-blue-500">click here</a>.<br>
+            For more information, visit the <a href="#" class="text-blue-500">Google Accounts Help Center</a>.
+        </div>
+    </div>
+</body>
+</html>

